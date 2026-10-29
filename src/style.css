@@ -35,7 +35,8 @@ nav > .nav-contact:hover { color: white; background: #356346; }
 .menu-toggle { display: none; background: none; }
 .hero { position: relative; color: white; overflow: hidden; }
 .hero-image, .hero-shade { position: absolute; inset: 0; }
-.hero-image { background: url('/images/garten.jpeg') center 48%/cover; }
+.hero-image { height: 100%; object-fit: cover; object-position: center 48%; }
+.content-text { white-space: pre-line; }
 .hero-shade { background: linear-gradient(90deg, #142c1ee6, #142c1e99 55%, #142c1e22); }
 .hero-content { position: relative; padding-top: 85px; padding-bottom: 85px; }
 h1 { font-size: clamp(36px, 4.3vw, 58px); line-height: 1.14; max-width: 700px; margin-bottom: 26px; }
@@ -132,7 +133,7 @@ dialog::backdrop { background: #10231bdf; }
   .container { padding-left: 23px; padding-right: 23px; }
   .hero-content { padding-top: 60px; padding-bottom: 60px; }
   h1 { font-size: clamp(30px, 7.4vw, 44px); }
-  .hero-image { background-position: 62% center; }
+  .hero-image { object-position: 62% center; }
   .hero-shade { background: #142c1ebd; }
   .hero p { font-size: 17px; }
   .hero-actions { flex-direction: column; align-items: start; gap: 24px; }

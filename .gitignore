@@ -2,3 +2,4 @@ node_modules/
 dist/
 *.local
 ueber-uns-vorschau.png
+.cms-qa/

@@ -1,0 +1,41 @@
+{
+  "title": "Unsere Leistungen",
+  "intro": "Gartenpflege, Baumarbeiten und Unterstützung rund um Ihr Grundstück.",
+  "items": [
+    {
+      "title": "Gartenarbeiten",
+      "image": "/images/garten.jpeg",
+      "alt": "Gepflegte Hecken, Sträucher und Beete in einem Garten",
+      "text": "Wir mähen Rasen, schneiden Hecken und Sträucher und kümmern uns um Ihre Beete. Einmalig oder als regelmäßige Pflege.",
+      "caption": ""
+    },
+    {
+      "title": "Baumfällungen",
+      "image": "/images/forstarbeiten.jpeg",
+      "alt": "Verladung gefällter Baumstämme mit einem Ladekran",
+      "text": "Wir übernehmen Baumarbeiten und Fällungen und kümmern uns um den Abtransport des Holzes.",
+      "caption": "Holzverladung und Abtransport"
+    },
+    {
+      "title": "Transporte",
+      "image": "/images/transport.jpeg",
+      "alt": "Unimog mit einem Kran auf einem Transportanhänger",
+      "text": "Wir transportieren Material, Maschinen und Baustellenausrüstung und übernehmen den Abtransport.",
+      "caption": ""
+    },
+    {
+      "title": "Baulogistik und Erdarbeiten",
+      "image": "/images/erdarbeiten.jpeg",
+      "alt": "Minibagger bei Erdarbeiten hinter einer Natursteinmauer",
+      "text": "Wir unterstützen Sie bei Materialbewegungen und Erdarbeiten rund um Ihre Baustelle.",
+      "caption": ""
+    },
+    {
+      "title": "Facility Management",
+      "image": "/images/landschaft.jpeg",
+      "alt": "Freigeschnittener Hang mit Fahrzeugen und Häcksler zum Abtransport",
+      "text": "Wir betreuen Grundstücke und pflegen Außenanlagen. Sprechen Sie uns auf die Arbeiten rund um Ihr Objekt an.",
+      "caption": "Einblick in die Pflege von Außenflächen"
+    }
+  ]
+}

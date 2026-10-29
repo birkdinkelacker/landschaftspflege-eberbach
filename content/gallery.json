@@ -1,0 +1,11 @@
+{
+  "title": "Bilder unserer Arbeiten",
+  "intro": "Wählen Sie ein Bild aus, um es zu vergrößern.",
+  "items": [
+    { "image": "/images/garten.jpeg", "title": "Garten- und Heckenpflege", "text": "Gepflegte Sträucher und Beete in einem Garten am Hang.", "alt": "Gepflegte Sträucher und Beete in einem Garten am Hang" },
+    { "image": "/images/erdarbeiten.jpeg", "title": "Erdarbeiten und Natursteinmauer", "text": "Mit dem Minibagger werden die Flächen hinter der Natursteinmauer vorbereitet.", "alt": "Minibagger und Natursteinmauer" },
+    { "image": "/images/forstarbeiten.jpeg", "title": "Holzverladung und Abtransport", "text": "Baumstämme werden mit dem Ladekran auf den Anhänger verladen.", "alt": "Holzverladung mit einem Ladekran" },
+    { "image": "/images/transport.jpeg", "title": "Transport von Baustellenausrüstung", "text": "Ein Kran wird mit dem Unimog zur Baustelle transportiert.", "alt": "Unimog mit Kran auf Transportanhänger" },
+    { "image": "/images/landschaft.jpeg", "title": "Rückschnitt und Flächenpflege", "text": "Ein Hang wird freigeschnitten. Das Schnittgut wird gehäckselt und abtransportiert.", "alt": "Freigeschnittener Hang mit Häcksler und Transportfahrzeugen" }
+  ]
+}

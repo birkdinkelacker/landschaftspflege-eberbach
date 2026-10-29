@@ -1,0 +1,15 @@
+{
+  "imprint": {
+    "notice": "Entwurf: Vor Veröffentlichung bitte den vollständigen Namen des Inhabers, die ladungsfähige Geschäftsanschrift und gegebenenfalls weitere Pflichtangaben ergänzen und prüfen.",
+    "sections": []
+  },
+  "privacy": {
+    "notice": "Entwurf: Diese Hinweise müssen vor Veröffentlichung an den tatsächlichen Hostinganbieter und die Datenverarbeitung angepasst und geprüft werden.",
+    "sections": [
+      { "title": "Verantwortlicher", "text": "Der Verantwortliche ist das oben genannte Unternehmen. Der vollständige Name des Verantwortlichen ist zu ergänzen." },
+      { "title": "Technischer Betrieb", "text": "Diese Seite verwendet keine Analysewerkzeuge, Kontaktformulare, eingebetteten Karten oder extern geladenen Schriftarten. Der Hostinganbieter kann beim Aufruf technische Verbindungsdaten verarbeiten. Anbieter, Umfang, Speicherdauer und Rechtsgrundlage sind vor Veröffentlichung zu ergänzen." },
+      { "title": "Kontaktaufnahme", "text": "Bei einer Kontaktaufnahme per Telefon oder E-Mail werden die von Ihnen übermittelten Angaben zur Bearbeitung Ihrer Anfrage genutzt. E-Mail-Links öffnen Ihr eigenes E-Mail-Programm." },
+      { "title": "Ihre Rechte", "text": "Sie können sich zu Auskunft, Berichtigung, Löschung oder weiteren Datenschutzanliegen an den oben genannten Kontakt wenden. Zudem können Sie sich an eine zuständige Datenschutzaufsichtsbehörde wenden." }
+    ]
+  }
+}

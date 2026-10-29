@@ -1,0 +1,273 @@
+media:
+  input: public/images
+  output: /images
+  extensions: [jpg, jpeg, png, webp, avif, gif]
+  rename: safe
+
+settings:
+  commit:
+    identity: user
+
+content:
+  - name: site
+    label: Allgemeine Angaben
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: title
+        label: Seitentitel im Browser
+        type: string
+        required: true
+      - name: description
+        label: Beschreibung für Suchmaschinen
+        type: text
+        required: true
+      - name: brandTitle
+        label: Name oben im Logo
+        type: string
+        required: true
+      - name: brandSubtitle
+        label: Zusatz unter dem Logo
+        type: string
+        required: true
+      - name: companyName
+        label: Vollständiger Unternehmensname
+        type: string
+        required: true
+      - name: trust
+        label: Kurzangaben unter dem Startbild
+        type: string
+        list: true
+
+  - name: home
+    label: Startseite
+    type: file
+    path: content/home.json
+    format: json
+    fields:
+      - name: title
+        label: Hauptüberschrift
+        type: text
+        required: true
+        description: Ein Zeilenumbruch erzeugt eine neue Zeile in der Überschrift.
+      - name: text
+        label: Einleitungstext
+        type: text
+        required: true
+      - name: image
+        label: Großes Hintergrundfoto
+        type: image
+        required: true
+      - name: servicesButton
+        label: Beschriftung des Leistungslinks
+        type: string
+        required: true
+
+  - name: about
+    label: Über uns
+    type: file
+    path: content/about.json
+    format: json
+    fields:
+      - name: title
+        label: Überschrift
+        type: string
+        required: true
+      - name: text
+        label: Text
+        type: text
+        required: true
+        description: Eine Leerzeile trennt zwei Absätze.
+      - name: image
+        label: Foto
+        type: image
+        required: true
+        description: Dieses Foto wird vollständig und ohne Beschnitt angezeigt.
+      - name: alt
+        label: Bildbeschreibung
+        type: string
+        required: true
+        description: Beschreibt den Bildinhalt für Menschen mit Sehbeeinträchtigung.
+      - name: caption
+        label: Bildunterschrift (optional)
+        type: string
+      - name: contactButton
+        label: Beschriftung des Kontaktbuttons
+        type: string
+        required: true
+
+  - name: services
+    label: Leistungen
+    type: file
+    path: content/services.json
+    format: json
+    fields:
+      - name: title
+        label: Überschrift des Abschnitts
+        type: string
+        required: true
+      - name: intro
+        label: Einleitung (optional)
+        type: text
+      - name: items
+        label: Leistungen hinzufügen, bearbeiten oder sortieren
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.title}"
+        fields:
+          - name: title
+            label: Name der Leistung
+            type: string
+            required: true
+          - name: text
+            label: Beschreibung
+            type: text
+            required: true
+          - name: image
+            label: Foto
+            type: image
+            required: true
+          - name: alt
+            label: Bildbeschreibung
+            type: string
+            required: true
+          - name: caption
+            label: Bildunterschrift (optional)
+            type: string
+
+  - name: gallery
+    label: Bildergalerie
+    type: file
+    path: content/gallery.json
+    format: json
+    fields:
+      - name: title
+        label: Überschrift des Abschnitts
+        type: string
+        required: true
+      - name: intro
+        label: Einleitung (optional)
+        type: text
+      - name: items
+        label: Bilder hinzufügen, bearbeiten oder sortieren
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{fields.title}"
+        fields:
+          - name: title
+            label: Bildtitel
+            type: string
+            required: true
+          - name: image
+            label: Foto
+            type: image
+            required: true
+          - name: alt
+            label: Bildbeschreibung
+            type: string
+            required: true
+          - name: text
+            label: Beschreibung unter dem Bild (optional)
+            type: text
+
+  - name: contact
+    label: Kontakt und Adresse
+    type: file
+    path: content/contact.json
+    format: json
+    fields:
+      - name: title
+        label: Überschrift
+        type: string
+        required: true
+      - name: text
+        label: Kontakttext
+        type: text
+        required: true
+      - name: phone
+        label: Telefonnummer für den Anruflink
+        type: string
+        required: true
+        description: International ohne Leerzeichen, zum Beispiel +491727417690.
+        pattern:
+          regex: '^\+[1-9][0-9]{6,14}$'
+          message: Bitte die internationale Telefonnummer angeben, zum Beispiel +491727417690.
+      - name: phoneDisplay
+        label: Angezeigte Telefonnummer
+        type: string
+        required: true
+      - name: email
+        label: E-Mail-Adresse
+        type: string
+        required: true
+        pattern:
+          regex: '^[^\s@]+@[^\s@]+\.[^\s@]+$'
+          message: Bitte eine gültige E-Mail-Adresse eingeben.
+      - name: street
+        label: Straße und Hausnummer
+        type: string
+        required: true
+      - name: city
+        label: Postleitzahl und Ort
+        type: string
+        required: true
+
+  - name: legal
+    label: Impressum und Datenschutz
+    type: file
+    path: content/legal.json
+    format: json
+    fields:
+      - name: imprint
+        label: Impressum
+        type: object
+        required: true
+        fields:
+          - name: notice
+            label: Entwurfshinweis (optional)
+            type: text
+            description: Erst entfernen, wenn die Anbieterangaben vollständig und geprüft sind.
+          - name: sections
+            label: Zusätzliche Angaben
+            description: Unternehmensname, Adresse und Kontakt werden aus den allgemeinen Angaben und Kontaktdaten übernommen. Hier zum Beispiel den Namen des Inhabers ergänzen.
+            type: object
+            list: true
+            fields:
+              - name: title
+                label: Überschrift
+                type: string
+                required: true
+              - name: text
+                label: Text
+                type: text
+                required: true
+      - name: privacy
+        label: Datenschutz
+        type: object
+        required: true
+        fields:
+          - name: notice
+            label: Entwurfshinweis (optional)
+            type: text
+            description: Erst entfernen, wenn die Datenschutzhinweise geprüft und an den tatsächlichen Betrieb angepasst sind.
+          - name: sections
+            label: Abschnitte der Datenschutzerklärung
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{fields.title}"
+            fields:
+              - name: title
+                label: Überschrift
+                type: string
+                required: true
+              - name: text
+                label: Text
+                type: text
+                required: true
