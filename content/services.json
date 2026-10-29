@@ -12,9 +12,9 @@
     {
       "title": "Baum- und Heckenschnitt",
       "text": "Wir übernehmen den Schnitt Ihrer Bäume und Hecken.",
-      "image": "/images/garten.jpeg",
-      "alt": "In Form geschnittene Sträucher und Gehölze im Garten",
-      "caption": "Geschnittene Gehölze im Garten"
+      "image": "/images/baum-und-heckenschnitt.jpg",
+      "alt": "Geschnittene Hecke mit aufgefangenem Schnittgut im Garten",
+      "caption": "Heckenschnitt im Garten"
     },
     {
       "title": "Obstbaumpflege",
@@ -26,23 +26,23 @@
     {
       "title": "Rasenpflege",
       "text": "Mähen, Düngen, Vertikutieren, Besanden und Neueinsäen – wir übernehmen die Pflege Ihres Rasens.",
-      "image": "",
-      "alt": "",
+      "image": "/images/rasenpflege.jpg",
+      "alt": "Blauer Traktor mit Mähgerät auf einer gemähten Grünfläche",
       "caption": ""
     },
     {
       "title": "Landschaftspflegemaßnahmen",
       "text": "Wir übernehmen die Pflege von Grün- und Außenflächen sowie Rückschnittarbeiten.",
-      "image": "/images/landschaft.jpeg",
-      "alt": "Freigeschnittener Hang mit Häcksler und Fahrzeugen zum Abtransport",
-      "caption": "Rückschnitt und Flächenpflege am Hang"
+      "image": "/images/landschaftspflege.jpg",
+      "alt": "Unimog und Mitarbeiter bei Aufräumarbeiten auf einer baumbestandenen Grünfläche",
+      "caption": "Pflege und Aufräumarbeiten auf einer Grünfläche"
     },
     {
       "title": "Baumfällung",
       "text": "Wir übernehmen Baumfällungen in Eberbach und Umgebung.",
-      "image": "",
-      "alt": "",
-      "caption": ""
+      "image": "/images/baumfaellung.jpg",
+      "alt": "Unimog und Ladekran beim Verladen gefällter Baumstämme",
+      "caption": "Holzverladung und Abtransport nach Baumarbeiten"
     },
     {
       "title": "Transporte",
