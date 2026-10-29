@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { createRoot } from 'react-dom/client';
-import { ArrowUpRight, ArrowRight, Phone, Mail, MapPin, Menu, X, Trees, Check, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArrowUpRight, ArrowRight, Phone, Mail, MapPin, Menu, X, Trees, Check, ChevronLeft, ChevronRight, Image as ImageIcon } from 'lucide-react';
 import site from '../content/site.json';
 import home from '../content/home.json';
 import about from '../content/about.json';
@@ -106,10 +106,13 @@ function App() {
           <div className="section-heading"><h2>{services.title}</h2><Paragraphs text={services.intro} /></div>
           <div className="service-grid">
             {(services.items ?? []).map((service, index) => <article className="service" key={index}>
-              <figure>
+              {service.image ? <figure>
                 <img src={service.image} alt={service.alt} loading="lazy" />
                 {service.caption && <figcaption>{service.caption}</figcaption>}
-              </figure>
+              </figure> : <div className="service-placeholder" role="img" aria-label={'Noch kein Foto für ' + service.title + ' vorhanden'}>
+                <ImageIcon size={36} strokeWidth={1.3} aria-hidden="true" />
+                <span>Foto folgt</span>
+              </div>}
               <div className="service-copy">
                 <h3>{service.title}</h3>
                 <Paragraphs text={service.text} />

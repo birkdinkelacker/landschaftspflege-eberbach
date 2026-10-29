@@ -25,6 +25,8 @@ Später kannst du direkt `https://DEINE-WEBSEITE/admin/` aufrufen. Diese Seite e
 
 Das Design und die Standardschrift bleiben erhalten. Das Foto im Bereich „Über uns“ wird weiterhin vollständig ohne Beschnitt dargestellt.
 
+Bei Leistungen ohne passendes Foto bleibt das Bildfeld leer. Die Webseite zeigt automatisch den neutralen Platzhalter „Foto folgt“. Sobald ein passendes Foto vorhanden ist, kannst du es im Bildfeld auswählen, die Bildbeschreibung ergänzen und speichern. Der Platzhalter wird dadurch ersetzt. Die Bilder in der Galerie bleiben weiterhin Pflichtfelder.
+
 ## Einen Text ändern
 
 1. Den gewünschten Bereich in Pages CMS öffnen.

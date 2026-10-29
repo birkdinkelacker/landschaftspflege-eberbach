@@ -127,13 +127,13 @@ content:
             type: text
             required: true
           - name: image
-            label: Foto
+            label: Foto (optional)
             type: image
-            required: true
+            description: Leer lassen, wenn noch kein passendes Foto vorliegt. Die Webseite zeigt dann einen Platzhalter. Zum Ersetzen ein Foto auswählen und speichern.
           - name: alt
             label: Bildbeschreibung
             type: string
-            required: true
+            description: Bei einem ausgewählten Foto bitte den Bildinhalt beschreiben. Ohne Foto kann dieses Feld leer bleiben.
           - name: caption
             label: Bildunterschrift (optional)
             type: string

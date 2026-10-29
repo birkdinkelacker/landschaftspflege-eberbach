@@ -1,41 +1,69 @@
 {
   "title": "Unsere Leistungen",
-  "intro": "Gartenpflege, Baumarbeiten und Unterstützung rund um Ihr Grundstück.",
+  "intro": "Wir übernehmen Garten- und Rasenpflege, Baumarbeiten, Landschaftspflegemaßnahmen sowie Transporte und Baggerarbeiten.",
   "items": [
     {
       "title": "Gartenarbeiten",
+      "text": "Wir kümmern uns um die Pflege Ihres Gartens – auf Wunsch auch als Rundum-Pflege.",
       "image": "/images/garten.jpeg",
-      "alt": "Gepflegte Hecken, Sträucher und Beete in einem Garten",
-      "text": "Wir mähen Rasen, schneiden Hecken und Sträucher und kümmern uns um Ihre Beete. Einmalig oder als regelmäßige Pflege.",
+      "alt": "Garten am Hang mit gepflegten Sträuchern und Beeten",
       "caption": ""
     },
     {
-      "title": "Baumfällungen",
-      "image": "/images/forstarbeiten.jpeg",
-      "alt": "Verladung gefällter Baumstämme mit einem Ladekran",
-      "text": "Wir übernehmen Baumarbeiten und Fällungen und kümmern uns um den Abtransport des Holzes.",
-      "caption": "Holzverladung und Abtransport"
+      "title": "Baum- und Heckenschnitt",
+      "text": "Wir übernehmen den Schnitt Ihrer Bäume und Hecken.",
+      "image": "/images/garten.jpeg",
+      "alt": "In Form geschnittene Sträucher und Gehölze im Garten",
+      "caption": "Geschnittene Gehölze im Garten"
+    },
+    {
+      "title": "Obstbaumpflege",
+      "text": "Wir kümmern uns um die Pflege Ihrer Obstbäume.",
+      "image": "",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "title": "Rasenpflege",
+      "text": "Mähen, Düngen, Vertikutieren, Besanden und Neueinsäen – wir übernehmen die Pflege Ihres Rasens.",
+      "image": "",
+      "alt": "",
+      "caption": ""
+    },
+    {
+      "title": "Landschaftspflegemaßnahmen",
+      "text": "Wir übernehmen die Pflege von Grün- und Außenflächen sowie Rückschnittarbeiten.",
+      "image": "/images/landschaft.jpeg",
+      "alt": "Freigeschnittener Hang mit Häcksler und Fahrzeugen zum Abtransport",
+      "caption": "Rückschnitt und Flächenpflege am Hang"
+    },
+    {
+      "title": "Baumfällung",
+      "text": "Wir übernehmen Baumfällungen in Eberbach und Umgebung.",
+      "image": "",
+      "alt": "",
+      "caption": ""
     },
     {
       "title": "Transporte",
+      "text": "Wir übernehmen Transporte und unterstützen Sie bei der Baulogistik.",
       "image": "/images/transport.jpeg",
       "alt": "Unimog mit einem Kran auf einem Transportanhänger",
-      "text": "Wir transportieren Material, Maschinen und Baustellenausrüstung und übernehmen den Abtransport.",
-      "caption": ""
+      "caption": "Transport von Baustellenausrüstung"
     },
     {
-      "title": "Baulogistik und Erdarbeiten",
+      "title": "Baggerarbeiten",
+      "text": "Wir unterstützen Sie mit Baggerarbeiten bei Ihrem Vorhaben.",
       "image": "/images/erdarbeiten.jpeg",
       "alt": "Minibagger bei Erdarbeiten hinter einer Natursteinmauer",
-      "text": "Wir unterstützen Sie bei Materialbewegungen und Erdarbeiten rund um Ihre Baustelle.",
       "caption": ""
     },
     {
       "title": "Facility Management",
-      "image": "/images/landschaft.jpeg",
-      "alt": "Freigeschnittener Hang mit Fahrzeugen und Häcksler zum Abtransport",
-      "text": "Wir betreuen Grundstücke und pflegen Außenanlagen. Sprechen Sie uns auf die Arbeiten rund um Ihr Objekt an.",
-      "caption": "Einblick in die Pflege von Außenflächen"
+      "text": "Wir übernehmen die Rundum-Pflege oder das komplette Facility Management für Ihr Einfamilienhaus, Mehrfamilienhaus oder Ihre Gewerbeimmobilie.",
+      "image": "",
+      "alt": "",
+      "caption": ""
     }
   ]
 }

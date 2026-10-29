@@ -5,6 +5,13 @@ import { parse } from 'yaml';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 
+export function validateServiceImages(items = []) {
+  if (!Array.isArray(items)) return [];
+  return items.flatMap((item, index) => item?.image && (typeof item.alt !== 'string' || !item.alt.trim())
+    ? [`content/services.json.items[${index}].alt: Bitte das ausgewählte Foto beschreiben.`]
+    : []);
+}
+
 export function validateFields(fields, values, path = 'Inhalt') {
   const errors = [];
   if (!values || typeof values !== 'object' || Array.isArray(values)) return [`${path}: Objekt erwartet.`];
@@ -58,6 +65,7 @@ export async function validateContent() {
     try {
       const values = JSON.parse(await readFile(resolve(root, entry.path), 'utf8'));
       errors.push(...validateFields(entry.fields, values, entry.path));
+      if (entry.name === 'services') errors.push(...validateServiceImages(values.items ?? []));
       errors.push(...await checkImages(values, entry.path, config.media));
     } catch (error) { errors.push(`${entry.path}: ${error.message}`); }
   }
