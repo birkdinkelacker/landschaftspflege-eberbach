@@ -20,5 +20,5 @@ test('CMS-Speichern und Codeänderungen werden auch zusammen mit Foto-Uploads ge
 });
 
 test('Reine Anleitung und CMS-Konfiguration benötigen keinen Webseiten-Build', () => {
-  assert.equal(canSkipBuild(['.pages.yml', 'CMS-ANLEITUNG.md'], used), true);
+  assert.equal(canSkipBuild(['.pages.yml', 'CMS-ANLEITUNG.md', 'CMS-KUNDENZUGANG.md'], used), true);
 });

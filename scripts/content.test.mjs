@@ -42,6 +42,17 @@ test('Ein später ergänztes Leistungsfoto benötigt eine Bildbeschreibung', () 
   assert.deepEqual(validateServiceImages([{ image: '/images/garten.jpeg', alt: 'Garten mit gepflegten Sträuchern' }]), []);
 });
 
+test('Doppelte Leistungsbilder werden erkannt, mehrere leere Platzhalter bleiben erlaubt', () => {
+  const errors = validateServiceImages([
+    { title: 'Gartenarbeiten', image: '/images/garten.jpeg', alt: 'Garten' },
+    { title: 'Heckenschnitt', image: '/images/garten.jpeg', alt: 'Hecke' },
+    { title: 'Obstbaumpflege', image: '' },
+    { title: 'Facility Management', image: '' }
+  ]);
+  assert.equal(errors.length, 1);
+  assert.match(errors[0], /Gartenarbeiten/);
+});
+
 test('Ungültige Kontaktlinks und fehlende Bildbeschreibungen werden abgefangen', async () => {
   const contact = await readContent('contact');
   assert.equal(validateFields(fields('contact'), { ...contact, phone: 'javascript:alert(1)', email: 'keine-adresse' }).length, 2);

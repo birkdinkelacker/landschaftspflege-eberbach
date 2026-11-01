@@ -5,8 +5,10 @@ media:
   rename: safe
 
 settings:
+  content:
+    merge: true
   commit:
-    identity: user
+    identity: app
 
 content:
   - name: site
@@ -14,6 +16,9 @@ content:
     type: file
     path: content/site.json
     format: json
+    operations:
+      delete: false
+      rename: false
     fields:
       - name: title
         label: Seitentitel im Browser
@@ -45,6 +50,9 @@ content:
     type: file
     path: content/home.json
     format: json
+    operations:
+      delete: false
+      rename: false
     fields:
       - name: title
         label: Hauptüberschrift
@@ -69,6 +77,9 @@ content:
     type: file
     path: content/about.json
     format: json
+    operations:
+      delete: false
+      rename: false
     fields:
       - name: title
         label: Überschrift
@@ -102,6 +113,9 @@ content:
     type: file
     path: content/services.json
     format: json
+    operations:
+      delete: false
+      rename: false
     fields:
       - name: title
         label: Überschrift des Abschnitts
@@ -143,6 +157,9 @@ content:
     type: file
     path: content/gallery.json
     format: json
+    operations:
+      delete: false
+      rename: false
     fields:
       - name: title
         label: Überschrift des Abschnitts
@@ -180,6 +197,9 @@ content:
     type: file
     path: content/contact.json
     format: json
+    operations:
+      delete: false
+      rename: false
     fields:
       - name: title
         label: Überschrift
@@ -222,6 +242,9 @@ content:
     type: file
     path: content/legal.json
     format: json
+    operations:
+      delete: false
+      rename: false
     fields:
       - name: imprint
         label: Impressum

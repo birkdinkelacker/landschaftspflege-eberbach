@@ -7,9 +7,16 @@ const root = fileURLToPath(new URL('../', import.meta.url));
 
 export function validateServiceImages(items = []) {
   if (!Array.isArray(items)) return [];
-  return items.flatMap((item, index) => item?.image && (typeof item.alt !== 'string' || !item.alt.trim())
-    ? [`content/services.json.items[${index}].alt: Bitte das ausgewählte Foto beschreiben.`]
-    : []);
+  const errors = [];
+  const usedImages = new Map();
+  for (const [index, item] of items.entries()) {
+    if (!item?.image) continue;
+    if (typeof item.alt !== 'string' || !item.alt.trim()) errors.push(`content/services.json.items[${index}].alt: Bitte das ausgewählte Foto beschreiben.`);
+    if (usedImages.has(item.image)) {
+      errors.push(`content/services.json.items[${index}].image: Dieses Foto wird bereits bei „${usedImages.get(item.image)}“ verwendet. Bitte pro Leistung ein eigenes Foto auswählen oder das Bildfeld für einen Platzhalter leeren.`);
+    } else usedImages.set(item.image, item.title ?? `Leistung ${index + 1}`);
+  }
+  return errors;
 }
 
 export function validateFields(fields, values, path = 'Inhalt') {

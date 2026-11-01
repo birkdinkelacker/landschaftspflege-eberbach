@@ -24,6 +24,7 @@ Texte und Fotos werden mit dem kostenlosen [Pages CMS](https://app.pagescms.org/
 
 - Texte, Leistungen, Kontaktdaten und Galerie: `content/*.json`
 - CMS-Einstieg auf der veröffentlichten Webseite: `/admin/`
+- Kunden-Anleitung: `/admin/hilfe.html`; E-Mail-Zugang freigeben: [CMS-KUNDENZUGANG.md](CMS-KUNDENZUGANG.md)
 - Farben und Layout: `src/style.css`
 - Fotos: `public/images/`
 

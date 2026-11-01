@@ -9,7 +9,13 @@ Die Webseite verwendet **Pages CMS**. Es speichert Texte und Fotos in deinem vor
 3. Installiere bzw. autorisiere die offizielle Pages-CMS-GitHub-App. Wähle **Only select repositories** und ausschließlich **landschaftspflege-eberbach**. Das CMS benötigt Schreibzugriff, damit es deine Texte und Fotos in diesem Repository speichern kann. Diese Freigabe erteilst du selbst in GitHub.
 4. Öffne das Repository in Pages CMS und wähle den Branch **main**. Die vorbereitete Datei `.pages.yml` liefert die Bearbeitungsmasken automatisch.
 
-Später kannst du direkt `https://DEINE-WEBSEITE/admin/` aufrufen. Diese Seite erklärt die Schritte und führt zum CMS. Die eigentliche Anmeldung und Bearbeitung erfolgt bei Pages CMS.
+Später kannst du direkt [landschaftspflege-eberbach.netlify.app/admin/](https://landschaftspflege-eberbach.netlify.app/admin/) aufrufen. Der Button führt direkt in das richtige CMS-Projekt. Die eigentliche Anmeldung und Bearbeitung erfolgt bei Pages CMS.
+
+## Zugang für deinen Kunden
+
+Lade deinen Kunden im Pages-CMS-Projekt unter **Admin → Collaborators → Invite a collaborator** per E-Mail ein. Er meldet sich danach über **Continue with email** mit genau der eingeladenen Adresse an. Ein GitHub- oder Netlify-Konto braucht er dafür nicht. Die Freigabe gilt für Inhalte und Medien dieses Repositorys; die CMS-Konfiguration und die Verwaltung anderer Zugänge bleiben beim Betreiber.
+
+Die vollständigen Übergabeschritte und eine Nachrichtenvorlage stehen in [CMS-KUNDENZUGANG.md](CMS-KUNDENZUGANG.md). Für den Kunden gibt es zusätzlich eine [einfache Online-Anleitung](https://landschaftspflege-eberbach.netlify.app/admin/hilfe.html).
 
 ## Was du bearbeiten kannst
 
@@ -23,7 +29,7 @@ Später kannst du direkt `https://DEINE-WEBSEITE/admin/` aufrufen. Diese Seite e
 | Kontakt und Adresse | Kontakttext, Telefonnummer, E-Mail-Adresse, Straße und Ort |
 | Impressum und Datenschutz | Zusätzliche Anbieterangaben und Abschnitte der Datenschutzerklärung |
 
-Das Design und die Standardschrift bleiben erhalten. Das Foto im Bereich „Über uns“ wird weiterhin vollständig ohne Beschnitt dargestellt.
+Das Design und die Standardschrift bleiben erhalten. Das Foto im Bereich „Über uns“ wird weiterhin vollständig ohne Beschnitt dargestellt. Die fest eingebundenen Inhaltsdateien können in den CMS-Masken nicht gelöscht oder umbenannt werden; die Einträge in Leistungs- und Bilderlisten bleiben bearbeitbar.
 
 Bei Leistungen ohne passendes Foto bleibt das Bildfeld leer. Die Webseite zeigt automatisch den neutralen Platzhalter „Foto folgt“. Sobald ein passendes Foto vorhanden ist, kannst du es im Bildfeld auswählen, die Bildbeschreibung ergänzen und speichern. Der Platzhalter wird dadurch ersetzt. Die Bilder in der Galerie bleiben weiterhin Pflichtfelder.
 
@@ -56,11 +62,11 @@ Die vorhandene Netlify-Webseite muss mit diesem GitHub-Repository verbunden sein
 
 `netlify.toml` enthält Build-Befehl, Veröffentlichungsverzeichnis und Node-Version bereits. Wenn du bisher nur einen fertigen Ordner zu Netlify hochgeladen hast, muss das bestehende Projekt zuerst mit GitHub verbunden werden. Dafür ist kein neuer Tarif erforderlich. Die tatsächliche Kontoverbindung und die Live-Veröffentlichung lassen sich erst in deinem Netlify-Konto bestätigen.
 
-Bleibt ein Deploy auf „Pending approval“, prüfe die Zuordnung deines GitHub-Kontos zu deinem vorhandenen Netlify-Benutzer. In der CMS-Konfiguration wird deine Benutzeridentität für Commits angefordert. Füge keine kostenpflichtigen Teammitglieder hinzu, nur um einen CMS-Build zu ermöglichen.
+Bleibt ein Deploy auf „Pending approval“, prüfe die Zuordnung deines GitHub-Kontos zu deinem vorhandenen Netlify-Benutzer und die Veröffentlichungsprotokolle. Bei E-Mail-Kundenzugängen erfolgen Schreibvorgänge über die Pages-CMS-GitHub-App; die Konfiguration fordert dafür keine persönliche E-Mail-Adresse als Commit-Metadatum an. Füge keine kostenpflichtigen Teammitglieder hinzu, nur um einen CMS-Build zu ermöglichen.
 
 ## Kosten niedrig halten
 
-- [Pages CMS](https://pagescms.org/) ist laut Anbieter kostenlos, einschließlich der gehosteten Version. Stand der Prüfung: 29.10.2026.
+- [Pages CMS](https://pagescms.org/) ist laut Anbieter kostenlos, einschließlich der gehosteten Version. Stand der Prüfung: 01.11.2026.
 - Die Webseite benötigt weiterhin nur statisches Hosting. Es kommen keine CMS-Server, Datenbanken oder bezahlten Erweiterungen hinzu.
 - Deine tatsächlichen Hostingkosten richten sich nach deinem bestehenden Netlify-Tarif und dessen Nutzung; eine unbegrenzte kostenlose Veröffentlichung wird nicht zugesagt.
 - Im aktuellen [Netlify Free-Tarif](https://www.netlify.com/pricing/) stehen 300 Credits im Monat bereit. Ein erfolgreicher Produktions-Deploy kostet aktuell 15 Credits; auch Traffic verbraucht Credits. Bei Erreichen der Free-Grenze pausieren Projekte. Für ältere Legacy-Tarife gelten andere Grenzen. Siehe [Netlify-Credits](https://docs.netlify.com/manage/accounts-and-billing/billing/billing-for-credit-based-plans/how-credits-work/).

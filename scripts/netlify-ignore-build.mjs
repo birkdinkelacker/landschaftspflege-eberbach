@@ -4,7 +4,7 @@ import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
-const docsOnly = new Set(['README.md', 'CMS-ANLEITUNG.md', '.pages.yml', '.gitignore']);
+const docsOnly = new Set(['README.md', 'CMS-ANLEITUNG.md', 'CMS-KUNDENZUGANG.md', '.pages.yml', '.gitignore']);
 
 export function canSkipBuild(changedFiles, usedImages) {
   return changedFiles.length > 0 && changedFiles.every(file =>

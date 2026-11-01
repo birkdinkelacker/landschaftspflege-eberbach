@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 32px 20px; min-height: 100vh; background: #f0f4ec; font: 17px/1.7 Arial, Helvetica, sans-serif; color: #263b2e; }
+.card { max-width: 760px; padding: clamp(24px, 5vw, 48px); margin: 0 auto; background: white; border: 1px solid #e0e7d9; border-radius: 10px; }
+.company { display: block; margin-bottom: 20px; font-size: 15px; color: #5b6a53; }
+h1, h2, h3 { line-height: 1.3; overflow-wrap: anywhere; }
+h1 { font-size: clamp(27px, 5vw, 34px); margin: 0 0 20px; }
+h2 { font-size: 23px; margin: 34px 0 14px; }
+h3 { font-size: 19px; margin-bottom: 10px; }
+p { margin: 0 0 18px; }
+ol, ul { padding-left: 24px; }
+li { margin: 12px 0; }
+a { color: #244d35; text-underline-offset: 3px; overflow-wrap: anywhere; }
+a:focus-visible { outline: 3px solid #7b994e; outline-offset: 4px; }
+.button { display: inline-flex; align-items: center; gap: 20px; padding: 14px 22px; margin: 6px 0 12px; border-radius: 5px; background: #244d35; color: white; text-decoration: none; font-weight: bold; }
+.button:hover { background: #356346; }
+.note { background: #f0f4ec; border-left: 3px solid #a3b987; padding: 18px; font-size: 16px; }
+.links { display: flex; flex-direction: column; gap: 16px; margin-top: 28px; padding-top: 24px; border-top: 1px solid #e0e7d9; }
+section + section { margin-top: 34px; }
+@media (max-width: 480px) { body { padding: 16px 12px; font-size: 16px; } .card { padding: 24px 20px; } .button { width: 100%; justify-content: center; } }
+@media print { body { padding: 0; background: white; } .card { border: 0; padding: 0; max-width: none; } .button, .links { display: none; } }
