@@ -6,11 +6,10 @@
       "title": "Gartenarbeiten",
       "text": "Wir kümmern uns um die Pflege Ihres Gartens – auf Wunsch auch als Rundum-Pflege.",
       "image": "/images/garten.jpeg",
-      "alt": "Garten am Hang mit gepflegten Sträuchern und Beeten",
-      "caption": ""
+      "alt": "Garten am Hang mit gepflegten Sträuchern und Beeten"
     },
     {
-      "title": "Baum- und Heckenschnitt",
+      "title": "Baum- und Heckenschnitt & Obstbaumpflege",
       "text": "Wir übernehmen den Schnitt Ihrer Bäume und Hecken.",
       "image": "/images/baum-und-heckenschnitt.jpg",
       "alt": "Geschnittene Hecke mit aufgefangenem Schnittgut im Garten",
@@ -18,17 +17,13 @@
     },
     {
       "title": "Obstbaumpflege",
-      "text": "Wir kümmern uns um die Pflege Ihrer Obstbäume.",
-      "image": "",
-      "alt": "",
-      "caption": ""
+      "text": "Wir kümmern uns um die Pflege Ihrer Obstbäume."
     },
     {
       "title": "Rasenpflege",
       "text": "Mähen, Düngen, Vertikutieren, Besanden und Neueinsäen – wir übernehmen die Pflege Ihres Rasens.",
       "image": "/images/rasenpflege.jpg",
-      "alt": "Blauer Traktor mit Mähgerät auf einer gemähten Grünfläche",
-      "caption": ""
+      "alt": "Blauer Traktor mit Mähgerät auf einer gemähten Grünfläche"
     },
     {
       "title": "Landschaftspflegemaßnahmen",
@@ -55,15 +50,11 @@
       "title": "Baggerarbeiten",
       "text": "Wir unterstützen Sie mit Baggerarbeiten bei Ihrem Vorhaben.",
       "image": "/images/erdarbeiten.jpeg",
-      "alt": "Minibagger bei Erdarbeiten hinter einer Natursteinmauer",
-      "caption": ""
+      "alt": "Minibagger bei Erdarbeiten hinter einer Natursteinmauer"
     },
     {
       "title": "Facility Management",
-      "text": "Wir übernehmen die Rundum-Pflege oder das komplette Facility Management für Ihr Einfamilienhaus, Mehrfamilienhaus oder Ihre Gewerbeimmobilie.",
-      "image": "",
-      "alt": "",
-      "caption": ""
+      "text": "Wir übernehmen die Rundum-Pflege oder das komplette Facility Management für Ihr Einfamilienhaus, Mehrfamilienhaus oder Ihre Gewerbeimmobilie."
     }
   ]
 }
