@@ -15,7 +15,7 @@ export function canSkipBuild(changedFiles, usedImages) {
 function collectImages(value, result) {
   if (!value || typeof value !== 'object') return;
   for (const [key, item] of Object.entries(value)) {
-    if (key === 'image' && typeof item === 'string' && item.startsWith('/images/')) result.add('public' + item);
+    if ((key === 'image' || key === 'brandLogo') && typeof item === 'string' && item.startsWith('/images/')) result.add('public' + item);
     else if (item && typeof item === 'object') collectImages(item, result);
   }
 }

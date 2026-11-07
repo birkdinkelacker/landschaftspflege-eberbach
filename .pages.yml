@@ -32,6 +32,11 @@ content:
         label: Name oben im Logo
         type: string
         required: true
+      - name: brandLogo
+        label: Logo
+        type: image
+        required: true
+        description: Das Bildzeichen neben dem Firmennamen. Am besten ein quadratisches PNG mit transparentem Hintergrund auswählen.
       - name: brandSubtitle
         label: Zusatz unter dem Logo
         type: string

@@ -52,7 +52,7 @@ async function checkImages(value, path, media) {
   const errors = [];
   for (const [key, item] of Object.entries(value ?? {})) {
     const name = `${path}.${key}`;
-    if (key === 'image' && item) {
+    if ((key === 'image' || key === 'brandLogo') && item) {
       if (typeof item !== 'string' || !item.startsWith(media.output + '/')) { errors.push(`${name}: Bitte ein Foto aus der Mediathek auswählen.`); continue; }
       const mediaRoot = resolve(root, media.input);
       const file = resolve(mediaRoot, item.slice(media.output.length + 1));

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { createRoot } from 'react-dom/client';
-import { ArrowUpRight, ArrowRight, Phone, Mail, MapPin, Menu, X, Trees, Check, ChevronLeft, ChevronRight, Image as ImageIcon } from 'lucide-react';
+import { ArrowUpRight, ArrowRight, Phone, Mail, MapPin, Menu, X, Check, ChevronLeft, ChevronRight, Image as ImageIcon } from 'lucide-react';
 import site from '../content/site.json';
 import home from '../content/home.json';
 import about from '../content/about.json';
@@ -22,7 +22,7 @@ function Paragraphs({ text }) {
 
 function Brand() {
   return <a className="brand" href="#start" aria-label="Zur Startseite">
-    <span className="brand-icon"><Trees size={30} strokeWidth={1.4} /></span>
+    <span className="brand-icon"><img src={site.brandLogo} alt="" width="64" height="64" /></span>
     <span>{site.brandTitle}<small>{site.brandSubtitle}</small></span>
   </a>;
 }
