@@ -18,6 +18,17 @@ npm run preview
 
 Der fertige statische Build liegt in `dist/` und kann auf einem statischen Webhosting bereitgestellt werden.
 
+## Cloudflare Workers
+
+Für Cloudflare Workers Builds ist `wrangler.json` vorbereitet:
+
+- Build command: `npm run build`
+- Deploy command: `npx wrangler deploy`
+- Produktionsbranch: `main`
+- Root directory: Repository-Wurzel
+
+Die Konfiguration hinterlegt den Projektnamen, den statischen Ausgabeordner `dist` und das von Cloudflare im Build-Log unterstützte Kompatibilitätsdatum `2026-11-04`. Der bisherige Deploy-Befehl mit `--assets ./dist --name landschaftspflege-eberbach` funktioniert ebenfalls mit dieser Datei. Preview-Builds können vorerst deaktiviert bleiben.
+
 ## Inhalte ohne Programmieren bearbeiten
 
 Texte und Fotos werden mit dem kostenlosen [Pages CMS](https://app.pagescms.org/) gepflegt. Die deutschen Bearbeitungsmasken sind in `.pages.yml` vorbereitet. Die einmalige GitHub-Freigabe und die Verbindung der vorhandenen Netlify-Seite sind in [CMS-ANLEITUNG.md](CMS-ANLEITUNG.md) erklärt.
