@@ -4,7 +4,7 @@
   "items": [
     {
       "title": "Gartenarbeiten",
-      "text": "Wir kümmern uns um die Pflege Ihres Gartens – auf Wunsch auch als Rundum-Pflege.",
+      "text": "Wir übernehmen die sorgfältige Pflege Ihres Gartens und kümmern uns um Ihre Beete, Pflanzen und Außenbereiche. Mit unserer Erfahrung und professionellen Geräten stimmen wir die Arbeiten auf die Bedürfnisse Ihres Gartens und die jeweilige Jahreszeit ab. So bleibt Ihr Garten gepflegt, Ihre Pflanzen können sich gut entwickeln und Sie sparen wertvolle Zeit und Arbeit.",
       "image": "/images/garten.jpeg",
       "alt": "Garten am Hang mit gepflegten Sträuchern und Beeten"
     },
@@ -17,27 +17,27 @@
     },
     {
       "title": "Rasen- und Landschaftspflege",
-      "text": "Ein gepflegter, grüner Rasen benötigt regelmäßige und fachgerechte Pflege. Moos und Unkraut können sich schnell ausbreiten und das Erscheinungsbild beeinträchtigen. Mit unserer langjährigen Erfahrung, dem nötigen Fachwissen und professionellen Spezialgeräten übernehmen wir sämtliche Arbeiten rund um Ihren Rasen – vom Mähen, Düngen und Vertikutieren bis hin zum Besanden und Neueinsäen. Darüber hinaus kümmern wir uns um die umfassende Pflege Ihrer Grün- und Außenflächen.",
+      "text": "Wir übernehmen die fachgerechte Pflege Ihres Rasens sowie Ihrer Grün- und Außenflächen. Mit unserer langjährigen Erfahrung und professionellen Geräten kümmern wir uns um das Mähen, Düngen, Vertikutieren, Besanden und Neueinsäen. So schaffen wir gute Voraussetzungen für einen dichten, gesunden Rasen, halten Ihre Außenanlagen gepflegt und nehmen Ihnen die regelmäßige Arbeit ab.",
       "image": "/images/rasenpflege.jpg",
       "alt": "Blauer Traktor mit Mähgerät auf einer gemähten Grünfläche"
     },
     {
       "title": "Baumfällung",
-      "text": "Wir übernehmen Baumfällungen in Eberbach und Umgebung.",
+      "text": "Wir übernehmen die fachgerechte Fällung Ihrer Bäume sowie die anschließende Verladung und den Abtransport des Holzes. Mit unserer Erfahrung und der passenden Ausrüstung planen wir die Arbeiten sorgfältig und stimmen das Vorgehen auf die Gegebenheiten vor Ort ab. So schaffen wir Platz für Ihre weitere Gartengestaltung und nehmen Ihnen die aufwendige Organisation und körperliche Arbeit ab.",
       "image": "/images/baumfaellung-1.jpg",
       "alt": "Unimog und Ladekran beim Verladen gefällter Baumstämme",
       "caption": "Holzverladung und Abtransport nach Baumarbeiten"
     },
     {
       "title": "Transporte, Baulogistik und Baggerarbeiten",
-      "text": "Wir übernehmen Transporte und unterstützen Sie bei der Baulogistik. Außerdem unterstützen wir Sie mit Baggerarbeiten rund um Haus und Garten.",
+      "text": "Wir übernehmen Transporte, unterstützen Sie bei der Baulogistik und führen Baggerarbeiten rund um Haus und Garten aus. Mit unserer Erfahrung und dem passenden Fuhrpark bewegen wir Materialien und Maschinen und bereiten Flächen für Ihr Vorhaben vor. So greifen die einzelnen Arbeitsschritte ineinander, Ihr Projekt kommt voran und Sie sparen wertvolle Zeit und Organisationsaufwand.",
       "image": "/images/0659bffe-0abd-46d7-aa06-81481cf265ad.jpg",
       "alt": "Unimog mit einem Kran auf einem Transportanhänger",
       "caption": "Transport von Baustellenausrüstung"
     },
     {
       "title": "Facility Management",
-      "text": "Wir übernehmen die Rundum-Pflege oder das komplette Facility Management für Ihr Einfamilienhaus, Mehrfamilienhaus oder Ihre Gewerbeimmobilie.",
+      "text": "Wir übernehmen die Rundum-Pflege und das Facility Management für Ihr Einfamilienhaus, Mehrfamilienhaus oder Ihre Gewerbeimmobilie. Gemeinsam mit Ihnen stimmen wir die anfallenden Arbeiten auf den Bedarf Ihres Objekts ab und kümmern uns zuverlässig um ein gepflegtes Erscheinungsbild. So bleibt Ihre Immobilie gut betreut, regelmäßige Aufgaben werden Ihnen abgenommen und Sie müssen sich nicht selbst um die laufende Pflege kümmern.",
       "image": "/images/ee170cd9-987b-4ae2-9af3-0a732b85532d-1.jpg",
       "alt": "Orangefarbener Pritschen-Lkw am Rand einer Grünfläche"
     }
