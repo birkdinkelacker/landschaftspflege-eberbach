@@ -27,8 +27,8 @@ function Brand() {
   </a>;
 }
 
-function Address() {
-  return <p>{site.companyName}<br />{contact.street}<br />{contact.city}</p>;
+function Address({ text }) {
+  return <Paragraphs text={text || [site.companyName, contact.street, contact.city].join('\n')} />;
 }
 
 function LegalSections({ sections }) {
@@ -169,7 +169,7 @@ function App() {
         </div>
       </div> : legal && <div className="legal">
         <h2>{legal}</h2>
-        <Address />
+        <Address text={legalDocument.provider || legalContent.imprint.provider} />
         <h3>Kontakt</h3><p>Telefon: {contact.phoneDisplay}<br />E-Mail: {contact.email}</p>
         {legalDocument.notice && <div className="notice">{legalDocument.notice}</div>}
         <LegalSections sections={legalDocument.sections} />

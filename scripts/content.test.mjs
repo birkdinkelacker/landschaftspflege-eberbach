@@ -64,3 +64,12 @@ test('HTML in CMS-Texten bleibt unveränderter Klartext', async () => {
   const about = await readContent('about');
   assert.deepEqual(validateFields(fields('about'), { ...about, text: '<script>alert(1)</script>\n\nEin Absatz.' }), []);
 });
+
+test('Anbieterangaben sind unabhängig vom optionalen Hinweis, Datenschutz kann sie übernehmen', async () => {
+  const legal = await readContent('legal');
+  const imprint = { provider: 'Gartenpflege Beispiel\nInhaber Beispiel\nBeispielweg 1\n69412 Eberbach' };
+  assert.deepEqual(validateFields(fields('legal'), { ...legal, imprint }), []);
+  assert.match(validateFields(fields('legal'), { ...legal, imprint: { notice: imprint.provider } }).join('\n'), /imprint\.provider/);
+  assert.deepEqual(validateFields(fields('legal'), { ...legal, imprint, privacy: { ...legal.privacy, provider: '' } }), []);
+  assert.deepEqual(validateFields(fields('legal'), { ...legal, imprint, privacy: { ...legal.privacy, provider: 'Abweichender Verantwortlicher\nBeispielweg 2' } }), []);
+});

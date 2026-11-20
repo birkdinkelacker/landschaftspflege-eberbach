@@ -4,8 +4,8 @@ Stand: 01.11.2026. Empfohlener Weg: **Pages-CMS-Einladung per E-Mail**. Der Kund
 
 ## Die fertigen Links
 
-- Kunden-Einstieg: https://landschaftspflege-eberbach.netlify.app/admin/
-- Kunden-Anleitung: https://landschaftspflege-eberbach.netlify.app/admin/hilfe.html
+- Kunden-Einstieg: https://landschaftspflege-eberbach-hsjw.netlify.app/admin/
+- Kunden-Anleitung: https://landschaftspflege-eberbach-hsjw.netlify.app/admin/hilfe.html
 - CMS-Projekt: https://app.pagescms.org/birkdinkelacker/landschaftspflege-eberbach/main
 - Einladungen verwalten (nur als Betreiber): https://app.pagescms.org/birkdinkelacker/landschaftspflege-eberbach/main/collaborators
 
@@ -49,9 +49,9 @@ Die folgende Nachricht kannst du selbst nach erfolgter Einladung an deinen Kunde
 >
 > Sie erhalten separat eine persönliche Einladung zum Bearbeiten Ihrer Webseite. Öffnen Sie die Einladung und melden Sie sich mit der E-Mail-Adresse an, an die sie gesendet wurde. Ein GitHub-Konto ist nicht nötig.
 >
-> Ihr Einstieg: https://landschaftspflege-eberbach.netlify.app/admin/
+> Ihr Einstieg: https://landschaftspflege-eberbach-hsjw.netlify.app/admin/
 >
-> Die Anleitung: https://landschaftspflege-eberbach.netlify.app/admin/hilfe.html
+> Die Anleitung: https://landschaftspflege-eberbach-hsjw.netlify.app/admin/hilfe.html
 >
 > Dort können Sie Texte und Fotos ändern. Bitte speichern Sie nach der Bearbeitung den gesamten Bereich mit „Save“. Nach der Veröffentlichung sind die Änderungen auf Ihrer Webseite sichtbar.
 >

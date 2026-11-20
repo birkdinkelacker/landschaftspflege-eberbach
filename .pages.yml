@@ -256,13 +256,18 @@ content:
         type: object
         required: true
         fields:
-          - name: notice
-            label: Entwurfshinweis (optional)
+          - name: provider
+            label: Anbieterangaben im Impressum
             type: text
-            description: Erst entfernen, wenn die Anbieterangaben vollständig und geprüft sind.
+            required: true
+            description: Dieser Text erscheint direkt unter der Überschrift Impressum. Hier Unternehmensname, Inhaber und Anschrift eintragen. Zeilenumbrüche bleiben erhalten. Telefon und E-Mail kommen aus Kontakt und Adresse.
+          - name: notice
+            label: Entwurfs- oder Prüfhinweis (optional)
+            type: text
+            description: Nur für einen zusätzlichen Hinweis in der farbig hinterlegten Box. Unternehmensname, Inhaber und Anschrift gehören in das Feld Anbieterangaben im Impressum oben.
           - name: sections
-            label: Zusätzliche Angaben
-            description: Unternehmensname, Adresse und Kontakt werden aus den allgemeinen Angaben und Kontaktdaten übernommen. Hier zum Beispiel den Namen des Inhabers ergänzen.
+            label: Weitere Abschnitte des Impressums
+            description: Zusätzliche Texte mit eigener Überschrift, zum Beispiel weitere Unternehmensangaben. Sie erscheinen unter den Kontaktdaten.
             type: object
             list: true
             fields:
@@ -279,10 +284,14 @@ content:
         type: object
         required: true
         fields:
-          - name: notice
-            label: Entwurfshinweis (optional)
+          - name: provider
+            label: Verantwortlicher und Anschrift (optional)
             type: text
-            description: Erst entfernen, wenn die Datenschutzhinweise geprüft und an den tatsächlichen Betrieb angepasst sind.
+            description: Erscheint oben in der Datenschutzerklärung. Leer lassen, um automatisch die Anbieterangaben aus dem Impressum zu übernehmen. Telefon und E-Mail kommen aus Kontakt und Adresse.
+          - name: notice
+            label: Entwurfs- oder Prüfhinweis (optional)
+            type: text
+            description: Nur für einen zusätzlichen Hinweis in der farbig hinterlegten Box. Die eigentlichen Datenschutztexte gehören in die Abschnitte der Datenschutzerklärung unten.
           - name: sections
             label: Abschnitte der Datenschutzerklärung
             type: object

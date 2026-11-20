@@ -9,13 +9,13 @@ Die Webseite verwendet **Pages CMS**. Es speichert Texte und Fotos in deinem vor
 3. Installiere bzw. autorisiere die offizielle Pages-CMS-GitHub-App. Wähle **Only select repositories** und ausschließlich **landschaftspflege-eberbach**. Das CMS benötigt Schreibzugriff, damit es deine Texte und Fotos in diesem Repository speichern kann. Diese Freigabe erteilst du selbst in GitHub.
 4. Öffne das Repository in Pages CMS und wähle den Branch **main**. Die vorbereitete Datei `.pages.yml` liefert die Bearbeitungsmasken automatisch.
 
-Später kannst du direkt [landschaftspflege-eberbach.netlify.app/admin/](https://landschaftspflege-eberbach.netlify.app/admin/) aufrufen. Der Button führt direkt in das richtige CMS-Projekt. Die eigentliche Anmeldung und Bearbeitung erfolgt bei Pages CMS.
+Später kannst du direkt [landschaftspflege-eberbach-hsjw.netlify.app/admin/](https://landschaftspflege-eberbach-hsjw.netlify.app/admin/) aufrufen. Der Button führt direkt in das richtige CMS-Projekt. Die eigentliche Anmeldung und Bearbeitung erfolgt bei Pages CMS.
 
 ## Zugang für deinen Kunden
 
 Lade deinen Kunden im Pages-CMS-Projekt unter **Admin → Collaborators → Invite a collaborator** per E-Mail ein. Er meldet sich danach über **Continue with email** mit genau der eingeladenen Adresse an. Ein GitHub- oder Netlify-Konto braucht er dafür nicht. Die Freigabe gilt für Inhalte und Medien dieses Repositorys; die CMS-Konfiguration und die Verwaltung anderer Zugänge bleiben beim Betreiber.
 
-Die vollständigen Übergabeschritte und eine Nachrichtenvorlage stehen in [CMS-KUNDENZUGANG.md](CMS-KUNDENZUGANG.md). Für den Kunden gibt es zusätzlich eine [einfache Online-Anleitung](https://landschaftspflege-eberbach.netlify.app/admin/hilfe.html).
+Die vollständigen Übergabeschritte und eine Nachrichtenvorlage stehen in [CMS-KUNDENZUGANG.md](CMS-KUNDENZUGANG.md). Für den Kunden gibt es zusätzlich eine [einfache Online-Anleitung](https://landschaftspflege-eberbach-hsjw.netlify.app/admin/hilfe.html).
 
 ## Was du bearbeiten kannst
 
@@ -27,7 +27,7 @@ Die vollständigen Übergabeschritte und eine Nachrichtenvorlage stehen in [CMS-
 | Leistungen | Überschrift, Einleitung, Leistungen hinzufügen, ändern, entfernen und umsortieren; je ein Foto und Text |
 | Bildergalerie | Bilder hinzufügen, ersetzen, entfernen und umsortieren; Titel und Beschreibungen |
 | Kontakt und Adresse | Kontakttext, Telefonnummer, E-Mail-Adresse, Straße und Ort |
-| Impressum und Datenschutz | Zusätzliche Anbieterangaben und Abschnitte der Datenschutzerklärung |
+| Impressum und Datenschutz | Anbieterangaben im Impressum, Verantwortlicher und Abschnitte der Datenschutzerklärung, optionale Prüfhinweise |
 
 Das Design und die Standardschrift bleiben erhalten. Das Foto im Bereich „Über uns“ wird weiterhin vollständig ohne Beschnitt dargestellt. Die fest eingebundenen Inhaltsdateien können in den CMS-Masken nicht gelöscht oder umbenannt werden; die Einträge in Leistungs- und Bilderlisten bleiben bearbeitbar.
 
@@ -39,6 +39,16 @@ Bei Leistungen ohne passendes Foto bleibt das Bildfeld leer. Die Webseite zeigt 
 2. Den Text ändern. Im Über-uns-Text trennt eine Leerzeile zwei Absätze.
 3. Speichern. Die Änderung landet als Commit in GitHub.
 4. Den Netlify-Deploy abwarten und dann die Webseite neu laden.
+
+## Impressum und Datenschutz bearbeiten
+
+- **Anbieterangaben im Impressum:** Unternehmensname, Inhaber und Anschrift. Dieser Text erscheint direkt unter der Überschrift „Impressum“. Zeilenumbrüche werden übernommen.
+- **Verantwortlicher und Anschrift:** Optionaler eigener Adressblock für die Datenschutzerklärung. Bleibt er leer, werden die Anbieterangaben aus dem Impressum übernommen.
+- **Kontakt und Adresse:** Hier werden Telefonnummer und E-Mail-Adresse geändert; beide erscheinen auch in den Rechtstexten.
+- **Weitere Abschnitte des Impressums** und **Abschnitte der Datenschutzerklärung:** Hier die jeweiligen zusätzlichen Rechtstexte mit Überschrift eintragen.
+- **Entwurfs- oder Prüfhinweis:** Nur für einen zusätzlichen Hinweis in der farbig hinterlegten Box. Anbieterangaben und der eigentliche Rechtstext gehören in die dafür benannten Felder.
+
+Anschließend den gesamten Bereich speichern und die Veröffentlichung abwarten. Die aktuellen Anbieterangaben wurden aus dem bisherigen Hinweisfeld übernommen.
 
 ## Ein Foto ändern oder hinzufügen
 
