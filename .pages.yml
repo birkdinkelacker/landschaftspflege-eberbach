@@ -308,3 +308,20 @@ content:
                 label: Text
                 type: text
                 required: true
+              - name: links
+                label: Weiterführende Links (optional)
+                type: object
+                list: true
+                description: Verweise auf Anbieterinformationen oder die Datenschutzaufsicht. Die verlinkten Seiten werden erst beim Anklicken geöffnet.
+                fields:
+                  - name: label
+                    label: Linktext
+                    type: string
+                    required: true
+                  - name: url
+                    label: Internetadresse
+                    type: string
+                    required: true
+                    pattern:
+                      regex: '^https://[^\s]+$'
+                      message: Bitte eine vollständige HTTPS-Adresse ohne Leerzeichen angeben.

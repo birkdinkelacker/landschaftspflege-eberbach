@@ -34,6 +34,9 @@ function Address({ text }) {
 function LegalSections({ sections }) {
   return (sections ?? []).map((section, index) => <section key={index}>
     <h3>{section.title}</h3><Paragraphs text={section.text} />
+    {(section.links ?? []).length > 0 && <p className="legal-links">
+      {section.links.map((link, linkIndex) => <a key={linkIndex} href={link.url} target="_blank" rel="noopener noreferrer">{link.label}</a>)}
+    </p>}
   </section>);
 }
 

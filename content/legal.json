@@ -3,23 +3,51 @@
     "provider": "Eberbacher Garten- und Landschaftspflege\nDietmar Polzin\nBüro: \nTriebweg 31/1\n69412 Eberbach\nMail: eberbacher_landschaftspflege@web.de\nTel: 0172/7417690"
   },
   "privacy": {
-    "notice": "Entwurf: Diese Hinweise müssen vor Veröffentlichung an den tatsächlichen Hostinganbieter und die Datenverarbeitung angepasst und geprüft werden.",
+    "provider": "Verantwortlich für die Datenverarbeitung:\nDietmar Polzin\nEberbacher Garten- und Landschaftspflege\nTriebweg 31/1\n69412 Eberbach",
     "sections": [
       {
-        "title": "Verantwortlicher",
-        "text": "Der Verantwortliche ist das oben genannte Unternehmen. Der vollständige Name des Verantwortlichen ist zu ergänzen."
+        "title": "Hosting und Zugriffsdaten",
+        "text": "Diese Webseite wird bei Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, USA, gehostet. Beim Aufruf verarbeitet Netlify technische Zugriffsdaten, insbesondere Ihre IP-Adresse, Datum und Uhrzeit, die aufgerufene Adresse, Browserinformationen sowie gegebenenfalls die zuvor besuchte Seite. Dies ist für die Auslieferung, Fehlerbehebung und Sicherheit der Webseite erforderlich. Rechtsgrundlage ist Art. 6 Abs. 1 Buchst. f DSGVO; unser berechtigtes Interesse ist der zuverlässige und sichere Betrieb der Webseite. Ohne diese Daten kann die Webseite nicht bereitgestellt werden.\n\nNetlify verarbeitet Zugriffsdaten als Auftragsverarbeiter auf Grundlage seiner Datenverarbeitungsvereinbarung. Laut dieser Vereinbarung werden CDN-Zugriffsprotokolle 30 Tage online und bis zu 13 Monate im Archiv gespeichert. Für Sicherheits- und Missbrauchsprotokolle nennt Netlify 365 Tage online und bis zu sechs Jahre im Archiv.",
+        "links": [
+          {
+            "label": "Datenschutzhinweise von Netlify",
+            "url": "https://www.netlify.com/privacy/"
+          },
+          {
+            "label": "Datenverarbeitungsvereinbarung von Netlify",
+            "url": "https://www.netlify.com/pdf/netlify-dpa.pdf/"
+          }
+        ]
       },
       {
-        "title": "Technischer Betrieb",
-        "text": "Diese Seite verwendet keine Analysewerkzeuge, Kontaktformulare, eingebetteten Karten oder extern geladenen Schriftarten. Der Hostinganbieter kann beim Aufruf technische Verbindungsdaten verarbeiten. Anbieter, Umfang, Speicherdauer und Rechtsgrundlage sind vor Veröffentlichung zu ergänzen."
+        "title": "Datenübermittlung in die USA",
+        "text": "Beim Hosting kann eine Verarbeitung in den USA stattfinden. Netlify ist nach dem EU-US Data Privacy Framework zertifiziert; entsprechende Übermittlungen beruhen auf dem Angemessenheitsbeschluss nach Art. 45 DSGVO. Soweit dieser Mechanismus nicht anwendbar ist, sieht Netlifys oben verlinkte Datenverarbeitungsvereinbarung EU-Standardvertragsklauseln nach Art. 46 DSGVO vor. Dort sind die entsprechenden Garantien einsehbar."
+      },
+      {
+        "title": "Cookies und eingebundene Inhalte",
+        "text": "Diese Webseite setzt keine Cookies. Wir verwenden keine Tracking- oder Marketingwerkzeuge und binden keine Kontaktformulare, Karten, Videos oder Social-Media-Plugins ein. Bilder werden über unsere Webseite ausgeliefert; die verwendeten Schriftarten sind Systemschriftarten."
       },
       {
         "title": "Kontaktaufnahme",
-        "text": "Bei einer Kontaktaufnahme per Telefon oder E-Mail werden die von Ihnen übermittelten Angaben zur Bearbeitung Ihrer Anfrage genutzt. E-Mail-Links öffnen Ihr eigenes E-Mail-Programm."
+        "text": "Wenn Sie uns per E-Mail oder Telefon kontaktieren, verarbeiten wir Ihre freiwillig mitgeteilten Kontaktangaben und den Inhalt Ihrer Anfrage. Unsere E-Mail- und Telefonanbieter erhalten die für die Kommunikation erforderlichen Daten. Rechtsgrundlage ist Art. 6 Abs. 1 Buchst. b DSGVO bei Anfragen zu einem Vertrag oder dessen Vorbereitung, sonst Art. 6 Abs. 1 Buchst. f DSGVO aufgrund unseres Interesses an der Bearbeitung Ihrer Anfrage. Ohne die erforderlichen Angaben können wir Ihre Anfrage gegebenenfalls nicht beantworten.\n\nDie Daten werden gelöscht, wenn die Anfrage abschließend bearbeitet ist, sofern keine gesetzlichen Aufbewahrungspflichten oder erforderlichen Maßnahmen zur Durchsetzung oder Abwehr von Rechtsansprüchen entgegenstehen. Gesetzliche Aufbewahrungspflichten beruhen auf Art. 6 Abs. 1 Buchst. c DSGVO."
       },
       {
         "title": "Ihre Rechte",
-        "text": "Sie können sich zu Auskunft, Berichtigung, Löschung oder weiteren Datenschutzanliegen an den oben genannten Kontakt wenden. Zudem können Sie sich an eine zuständige Datenschutzaufsichtsbehörde wenden."
+        "text": "Unter den gesetzlichen Voraussetzungen haben Sie nach Art. 15 bis 20 DSGVO das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit. Zur Ausübung Ihrer Rechte können Sie sich an die oben genannten Kontaktdaten wenden."
+      },
+      {
+        "title": "Widerspruchsrecht",
+        "text": "Soweit wir Daten auf Grundlage von Art. 6 Abs. 1 Buchst. f DSGVO verarbeiten, können Sie nach Art. 21 DSGVO aus Gründen Ihrer besonderen Situation jederzeit Widerspruch gegen diese Verarbeitung einlegen. Wenden Sie sich dazu an die oben genannten Kontaktdaten."
+      },
+      {
+        "title": "Beschwerderecht",
+        "text": "Sie können sich nach Art. 77 DSGVO bei einer Datenschutzaufsichtsbehörde beschweren, insbesondere beim Landesbeauftragten für den Datenschutz und die Informationsfreiheit Baden-Württemberg, Heilbronner Straße 35, 70191 Stuttgart, E-Mail: poststelle@lfdi.bwl.de.",
+        "links": [
+          {
+            "label": "Beschwerde beim LfDI Baden-Württemberg",
+            "url": "https://www.baden-wuerttemberg.datenschutz.de/beschwerde/"
+          }
+        ]
       }
     ]
   }

@@ -73,3 +73,13 @@ test('Anbieterangaben sind unabhängig vom optionalen Hinweis, Datenschutz kann 
   assert.deepEqual(validateFields(fields('legal'), { ...legal, imprint, privacy: { ...legal.privacy, provider: '' } }), []);
   assert.deepEqual(validateFields(fields('legal'), { ...legal, imprint, privacy: { ...legal.privacy, provider: 'Abweichender Verantwortlicher\nBeispielweg 2' } }), []);
 });
+
+test('Datenschutz-Links sind optional und erlauben nur vollständige HTTPS-Adressen', async () => {
+  const legal = await readContent('legal');
+  const withLink = url => ({ ...legal, privacy: { ...legal.privacy, sections: [{ title: 'Weitere Informationen', text: 'Datenschutz beim Anbieter.', links: [{ label: 'Anbieterinformationen', url }] }] } });
+  assert.deepEqual(validateFields(fields('legal'), withLink('https://www.netlify.com/privacy/')), []);
+  for (const url of ['javascript:alert(1)', 'http://www.netlify.com/privacy/', 'https://ungueltige adresse.de']) {
+    assert.match(validateFields(fields('legal'), withLink(url)).join('\n'), /HTTPS-Adresse/);
+  }
+  assert.deepEqual(validateFields(fields('legal'), { ...legal, privacy: { ...legal.privacy, sections: [{ title: 'Kontakt', text: 'Fragen per E-Mail.' }] } }), []);
+});
