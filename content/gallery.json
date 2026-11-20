@@ -9,10 +9,88 @@
       "text": "Gepflegte Sträucher und Beete in einem Garten am Hang."
     },
     {
-      "title": "Erdarbeiten und Natursteinmauer",
-      "image": "/images/erdarbeiten.jpeg",
-      "alt": "Minibagger und Natursteinmauer",
-      "text": "Mit dem Minibagger werden die Flächen hinter der Natursteinmauer vorbereitet."
+      "title": "Gartenpflege am Hang",
+      "image": "/images/garten-hang-uebersicht.jpg",
+      "alt": "Garten am Hang mit geschnittenen Sträuchern, Blumen und einer weißen Bank",
+      "text": "Gepflegte Sträucher und Beete auf einem Gartengrundstück am Hang."
+    },
+    {
+      "title": "Heckenschnitt an der Grundstücksgrenze",
+      "image": "/images/heckenschnitt-vorderansicht.jpg",
+      "alt": "Geschnittene grüne Hecke neben einem gepflasterten Gehweg",
+      "text": "Blick auf die geschnittene Hecke entlang des Gehwegs."
+    },
+    {
+      "title": "Heckenschnitt mit aufgefangenem Schnittgut",
+      "image": "/images/baum-und-heckenschnitt.jpg",
+      "alt": "Geschnittene Hecke mit Schnittgut auf ausgelegten Planen",
+      "text": "Das Schnittgut wird auf Planen aufgefangen und für den Abtransport gesammelt."
+    },
+    {
+      "title": "Gehölze am Parkplatz",
+      "image": "/images/gehoelze-am-parkplatz.jpg",
+      "alt": "Dichte Bäume und Sträucher entlang eines gepflasterten Parkplatzes",
+      "text": "Bäume und dichter Bewuchs entlang einer gepflasterten Parkfläche."
+    },
+    {
+      "title": "Gehölze an der Zufahrt",
+      "image": "/images/gehoelze-an-der-zufahrt.jpg",
+      "alt": "Hohe Sträucher und Bäume neben einer gepflasterten Zufahrt",
+      "text": "Blick auf die Gehölze entlang der Zufahrt."
+    },
+    {
+      "title": "Gehölze an der Garageneinfahrt",
+      "image": "/images/gehoelze-an-der-garageneinfahrt.jpg",
+      "alt": "Dichter Bewuchs an einer Stützmauer neben einer Garageneinfahrt",
+      "text": "Gehölze entlang einer Stützmauer an der Garageneinfahrt."
+    },
+    {
+      "title": "Mäharbeiten mit dem Traktor",
+      "image": "/images/rasenpflege.jpg",
+      "alt": "Blauer Traktor mit orangefarbenem Mähgerät auf einer gemähten Hangfläche",
+      "text": "Traktor und Mähgerät auf einer bereits gemähten Grünfläche am Hang."
+    },
+    {
+      "title": "Bewachsene Grünfläche",
+      "image": "/images/bewachsene-gruenflaeche.jpg",
+      "alt": "Hohe Gräser und junge Gehölze auf einer Fläche mit liegendem Baumstamm",
+      "text": "Hohe Gräser und Gehölze auf einer Fläche mit liegendem Baumstamm."
+    },
+    {
+      "title": "Gehölzfläche mit Astholz",
+      "image": "/images/gehoelzflaeche-mit-astholz.jpg",
+      "alt": "Dichter grüner Bewuchs mit liegenden Ästen und Baumstämmen",
+      "text": "Blick auf eine Gehölzfläche mit dichtem Bewuchs und liegendem Astholz."
+    },
+    {
+      "title": "Grünfläche am Gehölzrand",
+      "image": "/images/gruenflaeche-am-gehoelzrand.jpg",
+      "alt": "Offene Grünfläche vor einem dichten Gehölzbestand",
+      "text": "Blick auf eine offene Grünfläche am Rand eines Gehölzbestands."
+    },
+    {
+      "title": "Rückschnitt auf einer Hangfläche",
+      "image": "/images/rueckschnitt-auf-hangflaeche.jpg",
+      "alt": "Hangfläche mit Bäumen, geschnittenem Astholz und gestapelten Stammstücken",
+      "text": "Geschnittenes Astholz und gestapelte Stammstücke auf einer Hangfläche."
+    },
+    {
+      "title": "Freigeschnittene Gehölzfläche",
+      "image": "/images/freigeschnittene-gehoelzflaeche.jpg",
+      "alt": "Freigeschnittene Fläche mit verbliebenen Bäumen und gesammeltem Astholz",
+      "text": "Eine freigeschnittene Fläche mit verbliebenen Bäumen und gesammeltem Astholz."
+    },
+    {
+      "title": "Unimog bei der Landschaftspflege",
+      "image": "/images/unimog-bei-landschaftspflege.jpg",
+      "alt": "Gelber Unimog und Mitarbeiter auf einer Fläche mit geschnittenen Gehölzen",
+      "text": "Unimog und Mitarbeiter bei Arbeiten auf einer Gehölzfläche."
+    },
+    {
+      "title": "Rückschnitt und Flächenpflege",
+      "image": "/images/landschaft.jpeg",
+      "alt": "Freigeschnittener Hang mit Häcksler und Transportfahrzeugen",
+      "text": "Ein Hang wird freigeschnitten. Das Schnittgut wird gehäckselt und abtransportiert."
     },
     {
       "title": "Landschaftspflege mit Holzverladung und Abtransport",
@@ -21,16 +99,112 @@
       "text": "Baumstämme werden mit dem Ladekran auf den Anhänger verladen."
     },
     {
+      "title": "Kettenbagger bei Erdarbeiten",
+      "image": "/images/0659bffe-0abd-46d7-aa06-81481cf265ad.jpg",
+      "alt": "Gelber Kettenbagger mit gefüllter Schaufel an einem Erdaushub",
+      "text": "Erdarbeiten mit dem Kettenbagger auf einem Hanggrundstück."
+    },
+    {
+      "title": "Erdarbeiten und Natursteinmauer",
+      "image": "/images/erdarbeiten.jpeg",
+      "alt": "Minibagger und Natursteinmauer",
+      "text": "Mit dem Minibagger werden die Flächen hinter der Natursteinmauer vorbereitet."
+    },
+    {
+      "title": "Mobilbagger bei Erdarbeiten",
+      "image": "/images/mobilbagger-erdarbeiten.jpg",
+      "alt": "Grüner Mobilbagger neben einem Erdhaufen auf einer baumbestandenen Fläche",
+      "text": "Mobilbagger bei Erdarbeiten auf einer baumbestandenen Fläche."
+    },
+    {
+      "title": "Mobilbagger auf einer Waldfläche",
+      "image": "/images/mobilbagger-auf-waldflaeche.jpg",
+      "alt": "Grüner Mobilbagger mit ausgefahrenen Stützen zwischen Bäumen",
+      "text": "Mobilbagger mit ausgefahrenen Stützen zwischen den Bäumen."
+    },
+    {
+      "title": "Kompakter Baggerlader",
+      "image": "/images/kompakter-baggerlader.jpg",
+      "alt": "Grüner Baggerlader mit Frontschaufel und Heckbagger",
+      "text": "Kompakter Baggerlader mit Frontschaufel und Heckbagger."
+    },
+    {
       "title": "Transport von Baustellenausrüstung",
       "image": "/images/transport.jpeg",
       "alt": "Unimog mit Kran auf Transportanhänger",
       "text": "Ein Kran wird mit dem Unimog zur Baustelle transportiert."
     },
     {
-      "title": "Rückschnitt und Flächenpflege",
-      "image": "/images/landschaft.jpeg",
-      "alt": "Freigeschnittener Hang mit Häcksler und Transportfahrzeugen",
-      "text": "Ein Hang wird freigeschnitten. Das Schnittgut wird gehäckselt und abtransportiert."
+      "title": "Transportfahrzeug mit Anhänger",
+      "image": "/images/transportfahrzeug-mit-anhaenger.jpg",
+      "alt": "Grüner Pritschenwagen mit Tandemanhänger neben Gartengeräten",
+      "text": "Pritschenwagen und Anhänger zusammen mit Geräten für die Gartenpflege."
+    },
+    {
+      "title": "Anhänger für Materialtransporte",
+      "image": "/images/tandemanhaenger-materialtransport.jpg",
+      "alt": "Zweiachsiger Anhänger mit offenen Bordwänden auf einer gemähten Fläche",
+      "text": "Tandemanhänger mit Bordwänden für den Materialtransport."
+    },
+    {
+      "title": "Traktor mit Frontlader",
+      "image": "/images/traktor-mit-frontlader.jpg",
+      "alt": "Hellgrüner Traktor mit Frontlader und Ladefläche vor einer Halle",
+      "text": "Traktor mit Frontlader und Ladefläche für Transport- und Ladearbeiten."
+    },
+    {
+      "title": "Traktor in der Fahrzeughalle",
+      "image": "/images/traktor-in-fahrzeughalle.jpg",
+      "alt": "Hellgrüner Traktor mit Frontlader in einer Fahrzeughalle",
+      "text": "Blick auf den Traktor mit Frontlader in der Fahrzeughalle."
+    },
+    {
+      "title": "Pritschen-Lkw",
+      "image": "/images/pritschen-lkw.jpg",
+      "alt": "Orangefarbener Pritschen-Lkw auf einer gepflasterten Fläche",
+      "text": "Pritschen-Lkw mit offener Ladefläche für Transporte."
+    },
+    {
+      "title": "Pritschen-Lkw am Waldrand",
+      "image": "/images/pritschen-lkw-am-waldrand.jpg",
+      "alt": "Orangefarbener Pritschen-Lkw in Seitenansicht auf einem Waldweg",
+      "text": "Seitenansicht des Pritschen-Lkw auf einem Waldweg."
+    },
+    {
+      "title": "Pritschen-Lkw – Frontansicht",
+      "image": "/images/pritschen-lkw-frontansicht.jpg",
+      "alt": "Frontansicht eines orangefarbenen Pritschen-Lkw auf einem Waldweg",
+      "text": "Frontansicht des Pritschen-Lkw auf einem Waldweg."
+    },
+    {
+      "title": "Pritschen-Lkw – Heckansicht",
+      "image": "/images/pritschen-lkw-heckansicht.jpg",
+      "alt": "Heckansicht eines orangefarbenen Pritschen-Lkw mit geschlossener Heckbordwand",
+      "text": "Heckansicht mit Ladefläche und Anhängerkupplung."
+    },
+    {
+      "title": "Pritschen-Lkw am Wiesenrand",
+      "image": "/images/pritschen-lkw-am-wiesenrand.jpg",
+      "alt": "Orangefarbener Pritschen-Lkw von schräg hinten an einer Wiese",
+      "text": "Pritschen-Lkw am Rand einer Wiese."
+    },
+    {
+      "title": "Einachser mit Bodenfräse",
+      "image": "/images/einachser-mit-bodenfraese.jpg",
+      "alt": "Grüner Einachser mit Fräsanbaugerät auf einer gepflasterten Fläche",
+      "text": "Einachser mit Fräsanbaugerät für die Bodenbearbeitung."
+    },
+    {
+      "title": "Einachser für die Gartenpflege",
+      "image": "/images/einachser-gartenpflege.jpg",
+      "alt": "Roter Einachser mit Benzinmotor und grobstolligen Reifen",
+      "text": "Einachser mit Benzinmotor und grobstolligen Reifen für Arbeiten im Garten."
+    },
+    {
+      "title": "Kehrbürste für befestigte Flächen",
+      "image": "/images/kehrbuerste-befestigte-flaechen.jpg",
+      "alt": "Rote Anbaukehrbürste auf einer gepflasterten Fläche",
+      "text": "Anbaukehrbürste zur Reinigung befestigter Flächen."
     }
   ]
 }
